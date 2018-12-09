@@ -1,0 +1,298 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}    
+
+.bufferintro{
+    margin-top: 100px;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+
+#videointerface{
+position: sticky;
+}
+
+#video{
+position: sticky;
+}
+
+.introtext{
+    font-family: museo-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 100px;
+    margin-top: 60px; 
+}
+
+/*.introtext2{
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}*/
+
+.introimage{
+    width: 100%;
+    padding:20px;
+}
+
+#projectscreen{
+    width: 100%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    display:block;
+    background: white;
+}
+
+
+#projectblock{
+    color: black;
+}
+
+#projectblock:hover{
+    color: darkgrey;
+    
+}
+
+
+
+#project1{
+}
+
+#project2{
+}
+
+#project3{
+}
+
+#project4{
+}
+
+#project5{
+}
+
+#project5{
+}
+
+.tab{
+    width: 80%;
+    position: sticky;
+    top: 20px;
+}
+
+tab:hover{
+    color:black;
+}
+
+#tabtext{
+    font-family: museo-sans, sans-serif;
+    text-decoration: none;
+    color: lightgray;
+    font-weight: 900;
+    font-size: 30px;
+    font-style: normal; 
+    margin-left: 20%;
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+}
+
+#tabtext:hover{
+    color:black;
+}
+
+.title{
+    float: left;
+    font-family: museo-sans, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.projectcard-left{
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 300px;
+    padding-top: 95px;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: all 0.5s ease-out;
+    
+}
+
+
+
+.projectcard-left.fade-in{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+.projectcard-right{
+    text-decoration: none;
+    float: right;
+    text-align: right;
+    display: block;
+    width: 100%;
+    height: 300px;
+    padding-top: 95px;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: all 0.5s ease-out;
+    
+}
+
+.projectcard-right.fade-in{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+a.projectname{
+    font-family: museo-sans, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+    transition: all 0.2s ease;
+}
+
+a.projectname:hover{
+    font-family: museo-sans, sans-serif;
+    color: darkgrey;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal; 
+}
+
+
+
+.h5{
+    font-family: museo-sans, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.projectimage{
+    padding: 5px;
+}
+
+
+/* F O N T S */
+
+#onhover:hover{
+    color: darkgrey;
+}
+
+
+
+#onhover .projectbrief{
+    font-family: museo-sans, sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: -20px;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+
+#sticker{
+    display: block;
+}
+
+.intro{
+    float: left;
+    margin-top: 90px;
+    color: white;
+}
+
+
+.shortbio{
+    font-family: museo-sans, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    font-size: 18px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+
+
+.projectbrief{
+    float: left;
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: -15px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+
+.projectblock .projectcontent{
+    float: left;
+    padding-left:20px;
+    padding-right: 20px;
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+#button{
+    text-align: center;
+    outline: none;
+    height: 60px;
+    width: 130px;
+    border: 2px solid lightgray;
+    color: lightgray;
+    background: white;
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    transition: 0.4s ease;
+}
+
+#button:hover{
+    color: white;
+    background: lightgray;
+    font-weight: 700;
+}

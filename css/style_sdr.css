@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    width: 100%;
     padding: 0px;
 }
 
@@ -109,6 +110,7 @@ position: sticky;
     font-style: normal;
     font-size: 18px;
     color: lightgray;
+    margin-top: 80px;
 }
 
 .interfacefeatures{
@@ -127,10 +129,6 @@ position: sticky;
     font-size: 28px;
     margin: 50px;
     color: black;
-}
-
-.contentdark{
-    margin-top: 100px;
 }
 
 
@@ -179,7 +177,9 @@ p {
 }
 
 .imagepadding{
-    margin-bottom: 50px; 
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 20px;
 }
 
 .button1{
@@ -235,5 +235,4 @@ p {
     margin-right: 70px;
     
 }
-
 
