@@ -108,7 +108,6 @@ tab:hover{
     text-decoration: none;
     color: lightgray;
     font-weight: 900;
-    font-size: 30px;
     font-style: normal; 
     margin-left: 20%;
     margin-bottom: 10px;
@@ -124,7 +123,18 @@ tab:hover{
     font-family: museo-sans, sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 30px;
+    font-size: 32px;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.title.shrink{
+    float: left;
+    font-family: museo-sans, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
     color: black;
     margin-left: 20px;
     margin-bottom: 40px;

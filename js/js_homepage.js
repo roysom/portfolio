@@ -1,20 +1,18 @@
-$(function() {
-  $( "#button" ).click(function() {
-    $( "#button" ).addClass( "onclic", 250, validate);
-  });
 
-  function validate() {
-    setTimeout(function() {
-      $( "#button" ).removeClass( "onclic" );
-      $( "#button" ).addClass( "validate", 450, callback );
-    }, 2250 );
-  }
-    function callback() {
-      setTimeout(function() {
-        $( "#button" ).removeClass( "validate" );
-      }, 1250 );
-    }
+$(document).ready(function(){
+    // init controller
+    var controller = new ScrollMagic.Controller();
+    
+    // lbuild scene
+    var ourScene = new ScrollMagic.Scene({
+    triggerElement: '#tabtext',
+    triggerHook: '0.1'
+  })
+  .setClassToggle('#tabtext','shrink')
+  .addTo(controller);
+  
 });
+
 
 $(document).ready(function(){
     // init controller
@@ -29,6 +27,8 @@ $(document).ready(function(){
   .addTo(controller);
   
 });
+
+
 
 $(document).ready(function(){
     // init controller
