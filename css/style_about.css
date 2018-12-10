@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+
+.buffer{margin-top: 20px; margin-bottom: 20px;}
+
+.title{
+    font-family: museo-sans, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.content{
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+a .content{
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+#caption{
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px ;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.licence{
+    background: white;
+    top: 0;
+    margin-left: 150px;
+    width: 1000px;
+    height: 80px;
+    display: block;
+}
+
+.licence licencetext{
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#profilephoto{
+    float: right;
+    display: block;
+    padding: 10%;
+    height: 600px;
+    margin
+    
+}
+
