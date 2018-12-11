@@ -177,9 +177,10 @@ p {
 }
 
 .imagepadding{
+    text-align: center;
     padding-left: 10%;
     padding-right: 10%;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .button1{
