@@ -3,51 +3,7 @@ body{
     padding: 0px;
 }
 
-.buffer{margin-top: 20px; margin-bottom: 20px;}
 
-#navbar{
-    position: fixed;
-    background: white;
-    top: 0;
-    width: 11%;
-    height: 720px;
-    padding-top: 30px;
-    display: block;
-    transition: 0.5s;
-    z-index: 1;
-}
-
-
-#navbar .logo{
-    display: block;
-    float: left;
-    width: 100px;
-    margin-left: 10px;
-    margin-top: 470px;
-    transition: all 0.2s ease;
-}
-
-
-a.tab{
-    float: left;
-    display: block;
-    color: lightgray;
-    font-family: museo-sans, sans-serif;
-    font-weight: 900;
-    font-size: 25px;
-    margin-bottom:20px;
-    margin-left: 20px;
-    transition: all 0.2s;
-    
-}
-
-a.tab:hover{
-    float: left;
-    display: block;
-    color: #484848;
-    text-decoration: none;
-    font-family: museo-sans, sans-serif;
-}
 
 
 .date{
@@ -150,17 +106,6 @@ a.tab:hover{
     border: 2px solid #484848;
     background: #484848;
     font-weight: 900;
-}
-
-
-.footer{
-    text-align: center;
-    display: block;
-    color: darkgrey;
-    margin-top: 160px;
-    font-family: museo-sans, sans-serif;
-    font-weight: 100;
-    font-size: 11px;
 }
 
 .endnote{

@@ -95,14 +95,7 @@ position: sticky;
 }
 
 
-.content{
-    font-family: museo-sans, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 18px;
-    margin-bottom: 50px;
-    color: black;
-}
+
 
 .contentdark{
     font-family: museo-sans, sans-serif;
@@ -165,6 +158,9 @@ position: sticky;
 
 p {
     display: block;
+    color: black;
+    font-family: proxima nova, sans-serif;
+    font-weight: 400;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -221,7 +217,12 @@ p {
 }
 
 .darkbackground{
+    display: block;
     background-color: #393939;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    
 }
 
 .sdr_scenario{

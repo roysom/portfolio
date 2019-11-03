@@ -9,11 +9,12 @@
     
     <!-- font link here -->
     <link rel="stylesheet" href="https://use.typekit.net/vqf3gud.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     
     
     <!-- Css Links Here -->
-    <link href="css/main.css" rel="stylesheet">
     <link href="css/style_homepage.css" rel="stylesheet">
+    <link href="css/style_textstyle.css" rel="stylesheet">
     
     <!-- Bootstrap Links Here --> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -23,9 +24,12 @@
     <!-- JavaScript Links Here -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/waypoints.js"></script>
     <script src="js/js_homepage.js"></script>
+    <script src="js/js_navbar.js"></script>
+    <script src="js/js_scroll.js"></script>
     <script src="JQUERY%20main.js"></script>
     <script src="js/jquery.sticky.js"></script>
     
@@ -36,239 +40,433 @@
     
 <body>
     
+    
+<!-- navbar -->
+<div id="navbar">
+        <a href="https://drive.google.com/file/d/1hU_oYOIZv7R86LAqjCSdCcn3iYfy1mHr/view?usp=sharing" class="tab" target="_blank">Resume</a>
+        <a href="#about" class="tab scroll">About</a>
+        <a href="#work" class="tab scroll">Work</a>
+        <a href="#intro" class="logo scroll">
+            <img src="images/logo_som_xs.png" class="img-fluid">
+        </a>
+</div>
 
 <div class="container-fluid">
     
-<!--INTRODUCTION-->
-    
-    <div class="row bufferintro">
+    <!-- I N T R O D U C T I O N -->
+    <div class="row buffer" id="intro">
         
-        <div class="col-sm-6">
-            <div class="embed-responsive">
+        <div class="col-md-4">
+            <div class="introbox">
+                <img src="images/logo_som.png" class="img-fluid">
+            </div>
+            <!--div class="introbox">
+                <div class="embed-responsive">
                 <video id="video" autoplay muted loop>
                     <source src="videos/moons.mp4" type="video/mp4">
                 </video>
+                </div>
+            </div-->
+            
+            
+        </div>
+        
+        <div class="col-md-8">
+            <div class="introbox">
+                <div class="introboxtext">
+                    <p class="introtext1">Namaste. I am Som.</p>
+                    <p class="introtext2">
+                        I am an <b><b>Interaction Designer</b></b>, pursuing masters at <b><b>NID</b></b>, previously interned as UX Designer at <b><b>Google</b></b> and currently looking for full-time opportunity.<br>
+                    </p>
+                </div>
             </div>
         </div>
+        
+    </div><!--row bufferintro-->
     
-        <div class="col-sm-6">
-            <p class="introtext">
-                Namaste! I am SOM.<br>
-                IxD student at NID Bangalore.<br><br>
-                Being an architect turned into an interaction designer, I strive to combine the physical world and the virtual world.<br><br>
-            </p>
+    <!-- P R O J E C T S -->
+    
+    <div class="row buffer" id="work">
+        <div class="col-md">
+            <div class="titlebox">
+                <p class="titletwo">Case Studies.</p>
+            </div>                     
         </div>
     </div>
     
+    <div class="row buffer">
+        
+        <div class="col-md">
+            
+        <!--Project 1-->
+            <a class="projectname" href="googleadmin.html">
+            <div class="cardbox">
+                <div class="cardboxproject">
+                    
+                    <div class="projectimage">
+                        <img src="images/cover_ga2.png" class="img-fluid projectimage">
+                    </div>
+                    
+                    <div class="projectbio">
+                            <p class="title3">"A companion app for GSuite admins to do administration on-the-go"
+                    </div>
+                    
+                    <div class="projecttitle">
+                            <p class="caption" style="color: #b2b2b2">Google . 20 weeks</p>
+                            <p class="titletwo">Google Admin App</p>
+                            <p class="caption">#gsuite #cloudadmin #materialdesign #designresearch #idaas #android</p>
+                    </div>
+                    
+                    
+                </div><!--carboxproject-->
+                    
+                </div><!--cardbox-->
+                
+            </a>
+        <!--END OF PROJECT-->
+            
+        <!--Project 4-->
+            <a class="projectname" href="huddle.html">
+            <div class="cardbox">
+                <div class="cardboxproject">
+                    
+                    <div class="projectimage">
+                        <img src="images/cover_hd.png" class="img-fluid projectimage">
+                    </div>
+                    
+                    <div class="projectbio">
+                            <p class="title3">"A messenger based social platform for planning ad-hoc events and meetups"
+                    </div>
+                    
+                    <div class="projecttitle">
+                            <p class="caption" style="color: #b2b2b2">Google task . 4 days</p>
+                            <p class="titletwo">Huddle app</p>
+                            <p class="caption">#meetup #eventplanner #messenger #mobileUI #ux #designsprint</p>
+                    </div>
+                    
+                    
+                </div><!--carboxproject-->
+                    
+                </div><!--cardbox-->
+                
+            </a>
+        <!--END OF PROJECT-->
+            
+        </div><!--col-md-->
+        
+        <div class="col-md">
+            
+        <!--Project 2-->
+            <a class="projectname" href="talktome.html">
+            <div class="cardbox">
+                <div class="cardboxproject">
+                    
+                    <div class="projectimage">
+                        <img src="images/cover_ttm.png" class="img-fluid projectimage">
+                    </div>
+                    
+                    <div class="projectbio">
+                            <p class="title3">"An ai based public installation to reduce stigma of mental health"
+                    </div>
+                    
+                    <div class="projecttitle">
+                            <p class="caption" style="color: #b2b2b2">NID . 8 weeks</p>
+                            <p class="titletwo">Talk to me.ai</p>
+                            <p class="caption">#publicinstallation #voiceUI #tangibleUI #uxresearch #uxdesign</p>
+                    </div>
+                    
+                    
+                </div><!--carboxproject-->
+                    
+                </div><!--cardbox-->
+                
+            </a>
+        <!--END OF PROJECT-->
+            
+        <!--Project 5-->
+            <a class="projectname" href="https://www.behance.net/gallery/71332087/Research-Study-Voice-Assistants" target="_blank">
+            <div class="cardbox">
+                <div class="cardboxproject">
+                    
+                    <div class="projectimage">
+                        <img src="images/cover_dr.png" class="img-fluid projectimage>
+                    </div>
+                    
+                    <div class="projectbio">
+                            <p class="title3">"A research study on evaluating ease-of-use with voice assistant"
+                    </div>
+                    
+                    <div class="projecttitle">
+                            <p class="caption" style="color: #b2b2b2">NID . 2 weeks</p>
+                            <p class="titletwo">Research on Voice AI</p>
+                            <p class="caption">#designresearch #voiceassistants #conversationUI #conferencepaper</p>
+                    </div>
+                    
+                </div><!--carboxproject-->
+                    
+                </div><!--cardbox-->
+                
+            </a>
+        <!--END OF PROJECT-->
+            
+            
+        </div><!--col-md-->
+        
+        <div class="col-md">
+            
+        <!--Project 3-->
+            <a class="projectname" href="safetydistancering.html" >
+            <div class="cardbox">
+                <div class="cardboxproject">
+                    
+                    <div class="projectimage">
+                        <img src="images/cover_sdr.png" class="img-fluid projectimage">
+                    </div>
+                    
+                    <div class="projectbio">
+                            <p class="title3">An AR driving assistant to maintain safety distance on road."
+                    </div>
+                    
+                    <div class="projecttitle">
+                            <p class="caption" style="color: #b2b2b2">NID . 4 weeks</p>
+                            <p class="titletwo">Safety Distance Ring</p>
+                            <p class="caption">#ARUI #perifovealinterface #safetydistance #mixedtraffic</p>
+                    </div>
+                    
+                    
+                </div><!--carboxproject-->
+                    
+                </div><!--cardbox-->
+                
+            </a>
+        <!--END OF PROJECT-->
+            
+        <!--Project 6-->
+            <a class="projectname" href="https://www.behance.net/gallery/64286195/Wild-Trek-VRHR-based-Learning-Experience" target="_blank">
+            <div class="cardbox">
+                <div class="cardboxproject">
+                    
+                    <div class="projectimage">
+                        <img src="images/cover_wt.png" class="img-fluid projectimage">
+                    </div>
+                    
+                    <div class="projectbio">
+                            <p class="title3">"An immersive experience to learn animal behaviors and understand food chain"
+                    </div>
+                    
+                    <div class="projecttitle">
+                            <p class="caption" style="color: #b2b2b2">NID. 2 weeks</p>
+                            <p class="titletwo">Wild Trek</p>
+                            <p class="caption">#VR #game #learning #museum #experienceprototype</p>
+                    </div>
+                    
+                </div><!--carboxproject-->
+                    
+                </div><!--cardbox-->
+                
+            </a>
+        <!--END OF PROJECT-->
+        
+            
+        </div><!--col-md-->
+        
+    </div><!--row-->
+    
+    
+    <!-- E X T R A  P R O J E C T S -->
+    
+    
+    <div class="row buffer">
+        <div class="col-md">
+            <div class="titlebox">
+                <p class="titletwo">See more.</p>
+            </div>            
+        </div>
+    </div>
     
     <div class="row buffer">
         
-        <div class="col-sm-3">
-            <div class="row tab" style="margin-top: 125px">
-                <a href="about.html" id="tabtext" class="title">About</a><br>
-                <a href="https://drive.google.com/open?id=1f2m_wA57ti69y-f7u09qJlwxYKrwMF1d" target="_blank" id="tabtext" class="title">Resume</a>
+        <!--Extra Project 1-->
+        <div class="col-md">
+            <a class="projectname" href="https://www.behance.net/gallery/64100981/Interactive-Platonics-Arduino-Unity" target="_blank">
+            <div class="cardbox">
+                <div class="cardboxsmall">
+                    <img src="images/cover_ps.png" class="img-fluid projectimage">
+                    <div class="cardboxsmalltext">
+                    <p class="title3">Platonic Solids</p>
+                    </div>
+                </div>
             </div>
+            </a>
         </div>
         
-        <div class="col-sm-7">
-            
-            <div class="row">
-                <p class="title" style="margin-top: 130px;">Work</p><br>
+        <!--Extra Project 2-->
+        <div class="col-md">
+           <a class="projectname" href="https://www.behance.net/gallery/64445069/Sound-Safari-Museum-Experience" target="_blank">
+            <div class="cardbox">
+                <div class="cardboxsmall">
+                    <img src="images/cover_ss.png" class="img-fluid projectimage">
+                    <div class="cardboxsmalltext">
+                    <p class="title3">Sound Safari</p>
+                    </div>
+                </div>
             </div>
-            
-<!--FIRST ROW-->
-            
-            <div class="row no-gutters ">
-                
-                <div class="col-sm-5">
-                    
-                    <!--Project 1-->
-                    
-                        <a href="safetydistancering.html">
-                        <img src="images/cover_sdr.png" class="img-fluid projectimage">
-                        </a>
-                        
-                        <p style="font-size:14px; color:#484848; font-weight:lighter; font-style: normal;">
-                            NID . 4 weeks 
-                        </p>
-                        
-                        <div id="project1" class="projectcard-left">
-                            
-                                <a class="projectname" href="safetydistancering.html">
-                                    <h4><b><b>Safety Distance Ring</b></b></h4>
-                                    A driving assistant based on AR which responds to our focal and peripheral vision. The case study is a design experiment on perifoveal display in Augmented Reality.  
-                                </a>
-                            
-                        </div>
-                    
-                </div><!--COL 5-->
-                
-                <div class="col-sm-2"></div>
-                
-                <div class="col-sm-5 projectmargintop">
-                    
-                    <!--huddle-->
-                        <a href="huddle.html" target="_blank">
-                        <img src="images/cover_hd.png" class="img-fluid projectimage">
-                        </a>
-                    
-                        <p style="font-size:14px; color:#484848; font-weight:lighter; font-style: normal;">
-                            Google Design Challenge . 4 days 
-                        </p>
-                        
-                        <div id="project2" class="projectcard-left">
-                            
-                            <a class="projectname" href="huddle.html" target="_blank">
-                                <h4><b><b>Huddle</b></b></h5>
-                                A platform to mutually plan of events and meetings with your circle.<br><br>
-                            </a>
-                            
-                        </div>
-
-                </div><!--COL 5-->
-                
-            </div><!--ROW NO gutter-->
-            
-<!--SECOND ROW-->
-            
-            <div class="row no-gutters projectmargintopleft">
-                
-                <div class="col-sm-5 ">
-                    
-                    <!--Design Research-->
-                    
-                        <a href="https://www.behance.net/gallery/71332087/Research-Study-Voice-Assistants" target="_blank">
-                        <img src="images/cover_dr.png" class="img-fluid projectimage">
-                        </a>
-                    
-                        <p style="font-size:14px; color:#484848; font-weight:lighter; font-style: normal;">
-                            NID . 2 weeks 
-                        </p>
-                        
-                        <div id="project3" class="projectcard-left">
-                            
-                                <a class="projectname" href="https://www.behance.net/gallery/71332087/Research-Study-Voice-Assistants">
-                                    <h4><b><b>Design Research</b></b></h5>
-                                    A research study on Human-Computer Interaction with voice assistant, focussed on defining factors of ease-of-interactions with VUI <br><br>
-                                    <p style="font-size:14px; color:#484848; font-weight:lighter; font-style:italic;">(published in SiDER 18 Helsinki)</p>
-                                </a>
-                            
-                        </div>
-                    
-                </div><!--COL 5-->
-                
-                <div class="col-sm-2"></div>
-                
-                <div class="col-sm-5 projectmargintop">
-                    
-                     <!--Wild Trek-->
-                    
-                        <a href="https://www.behance.net/gallery/64286195/Wild-Trek-VRHR-based-Learning-Experience" target="_blank">
-                        <img src="images/cover_wt.png" class="img-fluid projectimage">
-                        </a>
-                    
-                        <p style="font-size:14px; color:#484848; font-weight:lighter; font-style: normal;">
-                            NID . 2 weeks
-                        </p>
-                        
-                        <div id="project4" class="projectcard-left">
-                            
-                                <a class="projectname" href="https://www.behance.net/gallery/64286195/Wild-Trek-VRHR-based-Learning-Experience" target="_blank">
-                                    <h4><b><b>Wild Trek</b></b></h5>
-                                    An experience design in VR, to understand learning food chain and behaviour of animals. 
-                                </a>
-                            
-                        </div>
-
-                </div><!--COL 5-->
-                
-            </div><!--ROW NO gutter-->
-
-<!--THIRD ROW-->
-            
-            <div class="row no-gutters projectmargintopleft">
-                
-                <div class="col-sm-5 ">
-                    
-                    <!--soundsafari-->
-                        <a href="https://www.behance.net/gallery/64445069/Sound-Safari-Museum-Experience" target="_blank">
-                        <img src="images/cover_ss.png" class="img-fluid projectimage">
-                        </a>
-                    
-                        <p style="font-size:14px; color:#484848; font-weight:lighter; font-style: normal;">
-                            NID . 2 weeks
-                        </p>
-                        
-                        <div id="project5" class="projectcard-left">
-                            <a class="projectname" href="https://www.behance.net/gallery/64445069/Sound-Safari-Museum-Experience" target="_blank">
-                                    <h4><b><b>Sound Safari</b></b></h5>
-                                    An experience design with sound and AR for Museum of Natural Histoy. Visitors are encourgaed to navigate using sound localization to spot the artifacts.
-                            </a>
-                        </div>
-                    
-                </div><!--COL 5-->
-                
-                <div class="col-sm-2"></div>
-                
-                <div class="col-sm-5 projectmargintop">
-                    
-                    <!--Project 4-->
-                        <a href="https://www.behance.net/gallery/64100981/Interactive-Platonics-Arduino-Unity" target="_blank">
-                        <img src="images/cover_ip2.png" class="img-fluid projectimage">
-                        </a>
-                    
-                        <p style="font-size:14px; color:#484848; font-weight:lighter; font-style: normal;">
-                            NID . 2 weeks
-                        </p>
-                        
-                        <div id="project6" class="projectcard-left">
-                            
-                            <a class="projectname" href="https://www.behance.net/gallery/71332087/Research-Study-Voice-Assistants" target="_blank">
-                                <h4><b><b>Interactive Platonics</b></b></h5>
-                                A driving assistant for perifoveal AR display. SDR focuses on behaviour of foveal and peripheral vision.
-                            </a>
-                            
-                        </div>
-
-                </div><!--COL 5-->
-                
-            </div><!--ROW NO gutter-->
-            <div class="text-center">
-                
-            <a href="https://www.behance.net/roysom" target="_blank">
-            <button id="button" style="margin-bottom: 150px;">Want to see more Case Studies?</button>
-            </a><br>
-            </div>
-            
-            
-            
-        </div><!--div class="col-7"-->
-    
-        <div class="col-sm-2"></div>
-         
-    </div><!--row buffer-->
-    
-    
-    <!--div class="row buffer">
-        
-        <div class="col-12">
-            
-            
-            
-        <p class="footer">
-            <!--a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br><br>
-            
-            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. &copy;&nbsp;2019 Som Roy 
-        </p>
-            
+            </a>
         </div>
         
-    </div-->
+        <!--Extra Project 3-->
+        <div class="col-md">
+            <a class="projectname" href="https://www.behance.net/gallery/65584401/Odyssey-a-new-way-to-plan-your-travel" target="_blank">
+            <div class="cardbox">
+                <div class="cardboxsmall">
+                    <img src="images/cover_od.png" class="img-fluid projectimage">
+                    <div class="cardboxsmalltext">
+                    <p class="title3">Odyssey</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        
+        <!--Extra Project 4-->
+        <div class="col-md">
+            <a class="projectname" href="https://www.behance.net/gallery/63069749/Bioscope" target="_blank">
+            <div class="cardbox">
+                <div class="cardboxsmall">
+                    <img src="images/cover_bs.png" class="img-fluid projectimage">
+                    <div class="cardboxsmalltext">
+                    <p class="title3">Bioscope</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        
+        <!--Extra Project 5-->
+        <div class="col-md">
+            <a class="projectname" href="https://www.behance.net/roysom" target="_blank">
+            <div class="cardbox">
+                <div class="cardboxsmall">
+                    <img src="images/cover_be.png" class="img-fluid projectimage">
+                    <div class="cardboxsmalltext">
+                    <p class="title3">More...</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        
+    </div>
+    
+    <!-- A B O U T  M E -->
+    
+    <div class="row buffer" id="about">
+        <div class="col-md">
+            <div class="titlebox">
+                <p class="titletwo">About me.</p>
+            </div>            
+        </div>
+    </div>
+    
+    <div class="row buffer">
+            
+            <div class="col-md-6">
+                <div class="aboutboxone">
+                    <div class="logobox">
+                        <img src="images/logo_google.jpg" class="img-fluid projectimage">
+                    </div>
+                    <div class="timelinetext">
+                         <p class="contenttwo">UX Design Intern, May - Oct 19</p>
+                    </div>
+                </div> 
+                
+                <div class="aboutboxone">
+                    <div class="logobox">
+                        <img src="images/logo_nid.jpg" class="img-fluid projectimage">
+                    </div>
+                    <div class="timelinetext">
+                         <p class="contenttwo">Master of Design, 2017 - 19</p>
+                    </div>
+                </div>
+                
+                <div class="aboutboxone">
+                    <div class="logobox">
+                        <img src="images/logo_hku.jpg" class="img-fluid projectimage">
+                    </div>
+                    <div class="timelinetext">
+                         <p class="contenttwo">Media Arts, Sept 18 - Jan 19</p>
+                    </div>
+                </div> 
+                
+                        
+                        
+            </div>
 
-</div><!--div class="container-fluid introscreen"-->
+            <div class="col-md-6">     
+                
+                <div class="aboutboxtwo">
+                    <p class="title3">Hi! I am Som Roy.</p><p class="paraone">
+                    I am pursuing my final semester in <b>Interaction Design</b> at <b>National Institue of Design</b>, Bangalore. This summer I was at <b>Google</b> working as a <b>UX Design intern</b>, and I think I have gained a few extra pounds because the food there was so awesome! Last semester I spent my winters as an exchange student at <b>Hogeschool voor de Kunsten Utrecht</b> in a beautiful romanesque city of Netherlands.<br><br>
+                        
+                    After graduating in architecture, I joined Interaction Design to satiate my curiosity in emerging technologies and making them accessible for everyone. I like to work on real world problems and the fact that design can impact millions of lives just fascinates me.
+                    <br><br>
+                        
+                    Besides design I have huge love for food. I like hanging out in "gullies" and "chowks" where I can find vintage buildings and interesting food joints. While at work, I play table tennis and drink "chai". Fun fact, I have lived in eight cities till now, and temporarily settled in Bangalore, the city of gardens and IT tech parks.<br><br>
+                        
+                    Please drop an email at <b>ar.somroy@gmail.com</b> if you are interested to collaborate or share your feedback on my work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    <!-- F O O T E R -->
+    <div class="row buffer">
+        <div class="col-md">
+            <div class="footer">
+                
+                        <div class="contactbox">
+                        
+                            <div class="contacticon">
+                                    <a href="mailto:ar.somroy@gmail.com">
+                                    <img src="images/logo_gmail.png" class="img-fluid"></a>
+                            </div>
+                            
+                            <div class="contacticon">
+                                <a href="https://www.linkedin.com/in/roysom/">
+                                    <img src="images/logo_linkdin.png" class="img-fluid">
+                                </a>
+                            </div>
+                           
+                            <div class="contacticon">
+                                <a href="https://www.behance.net/roysom">
+                                <img src="images/logo_behance.png" class="img-fluid">
+                                </a>
+                            </div>
+                            
+                            <div class="contacticon">
+                                <a href="https://www.instagram.com/roysom">
+                                <img src="images/logo_insta.png" class="img-fluid">
+                                </a>
+                            </div>
+                            
+                        </div>
+                
+                <p class="licencetext">Copywright © 2019 Som Roy. This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+       
+            </div>
+        </div>
+    </div>
+
+</div><!--container fluid-->
 
     
-
+    
+    
+        
 <!-- JavaScript Links Here -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
@@ -277,6 +475,7 @@
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/waypoints.js"></script>
 <script src="js/js_navbar.js"></script>
+<script src="js/js_scroll.js"></script>
 
 
 </body>
