@@ -23,8 +23,8 @@
 }
 
 .contentbox{
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 40px;
+    margin-bottom: 160px;
 }
 
 .contentimage{
@@ -41,14 +41,19 @@
     text-align: center;
 }
 
+.objectiveimage{
+    display: block;
+    background-color: white;
+    height: 240px;
+    margin-bottom: 10px;
+}
+
 .designhighlightbox{
     display: block;
-    background-color: #ebebeb;
-    height: 120px;
-    margin-top: 20px;
-    margin-bottom: 280px;
-    padding-left: 4px;
-    padding-right: 4px;
+    height: 400px;
+    margin-bottom: 120px;
+    padding-left: 8px;
+    padding-right: 8px;
     
 }
 

@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://use.typekit.net/vqf3gud.css">
     
     <!-- Css Links Here -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style_homepage.css" rel="stylesheet">
+    <link href="css/style_textstyle.css" rel="stylesheet">
     <link href="css/style_sdr.css" rel="stylesheet">
     
     <!-- Bootstrap Links Here --> 
@@ -30,68 +31,104 @@
 </head>
 
 <body>
+
     
-<!-- navbar -->
+<!-- N A V B A R -->
 <div id="navbar">
-        <a href="index.html" class="tab">Work</a>
-        <a href="about.html" class="tab">About</a>
-        <a href="about.html"><img src="images/som.png" class="logo"></a>
+        <a href="https://drive.google.com/file/d/1hU_oYOIZv7R86LAqjCSdCcn3iYfy1mHr/view?usp=sharing" class="tab" target="_blank">Resume</a>
+        <a href="index.html#about" class="tab scroll">About</a>
+        <a href="index.html#work" class="tab scroll">Work</a>
+        <a href="index.html" class="logo scroll">
+            <img src="images/logo_som_xs.png" class="img-fluid">
+        </a>
 </div>
-    
 
 
 
  <!-- safety distance rings -->
 <div class="container-fluid">
-    <!--  <div class="row buffer"></div> --> 
-    <div class="row buffer">
-        <div class="col-sm-2"> </div>
-        <div class="col-sm-8" >
+    
+    <!--H E A D E R-->
+    <div class="row headerbuffer">
+        
+        <div class="col-md-2">
+            <!--div class="imagebox">
+                <img src="images/cover_hd.png" class="img-fluid projectimage ">
+            </div-->
+        </div>
+        
+        <div class="col-md-8">
             
-            <p class="titletext text-center">Case Study: Safety Distance Ring</p>
+            <!--div class="imagebox">
+                <img src="images/header_hd.png" class="img-fluid projectimage ">
+            </div-->
             
-            <p class="heading text-center">
-                I N T R O D U C T I O N
-            </p>
+            <p class="titleheading">Safety Distance Ring</p>
+            <p class="titlesubheading">An augemented reality driving assistant to maintain safety distance on roads.</p><br><br>
             
             <div class="row">
-                <div class="col-6">
-                    <p class="content">
-                        <b>
-                        Guide : Mamata Rao<br>
-                        Duration : 4 weeks<br>
-                        Group : Individual<br>
-                        Place : NID 2018
-                        </b>
+                <div class="col-md-6">
+                    <p class="titlefour">
+                        Duration &nbsp: 4 weeks<br>
+                        Guide &nbsp &nbsp&nbsp&nbsp: Mamata Rao<br>
+                        Role &nbsp &nbsp &nbsp &nbsp : Research, Design<br>
+                        Group &nbsp &nbsp&nbsp&nbsp: Individual
                     </p>
+                    
+                    
+                        <!--p class="caption">Guide :<br></p>
+                        <p class="titlefour">Mamata Rao<br></p>
+                    
+                    <div class="row">
+                        <p class="caption">Role: </p>
+                        <p class="titlefour">Research, Design<br>
+                    </div>
+                   
+                    
+                    
+                        Role : Research, Design<br>
+                        Duration : 4 weeks<br>
+                        Group: Individual-->
                 </div>
-                
-                <div class="col-6">
+                <div class="col-md-6">
                     <p class="content">
-                       <b>Objective</b><br>
-                        To identify a problem in our daily life activity and come up with a soluiton based on Ubiquitous Computing or Calm Technology.
+                        <b>Objective :</b><br>
+                        The objective was to choose one daily life activity and come up with a solution based on ubiquitous computing or calm computing.
                     </p>
                 </div>
             </div>
             
-            <p class="content">
-                <b>Overview</b><br>
-                SDR is an augmented reality solution for enhancing our peripheral vision for driving a car. Since 2014, people have realised peripheral vision is equally important as our foveal vision while driving. The case study explores the problems faced in our vision concerning safety while driving.<br><br>
-            
+        </div>
+        
+        <div class="col-md-2">   </div>
+        
+    </div>
+    
+    <div class="row buffer">
+        <div class="col-sm-2"> </div>
+        <div class="col-sm-8" >
+
+            <p class="heading text-center">
+                I N T R O D U C T I O N
             </p>
             
-             <p class="heading text-center">
+            <p class="content">
+                As part of a daily life activity, driving was chosen for this project. Driving is one of the most common daily activity for urban people and yet, the scenario of driving in India is not convinient. Due to lack of following traffic rules, poor training and other various reasons, driving has proved to be fatal. It is second major reason of deaths in India. Therefore, in this project I tried to focus on the problem areas in driving and how some of the issues can be solved using ubiquitous computing.
+                
+            </p>
+            
+            <p class="heading text-center">
                 R E S E A R C H
             </p>
             
             <p class="content">
-                <b>I took a qualitative approach to understand and identify problems in a daily activity. This approach gave me deeper insight into problems we usually ignore on daily basis. I discoverd new set of problems exist on roads where there is mixed traffic. Such scenarios are very common in India and other south asian countries. I approached via following two ways-</b><br><br>
+                I took a qualitative approach to understand and identify problems in a daily activity. This approach gave me deeper insight into problems we usually ignore on daily basis. I discoverd new set of problems exist on roads where there is mixed traffic. Such scenarios are very common in India and other south asian countries. I approached via following two ways-<br><br>
                  <B>1. Personal Interviews</B><br>
-                 <B>2. Observational Method</B><br>
+                 <B>2. Observational Method</B><br><br><br>
                 
             </p>
             
-            <p class="subheading">
+            <p class="titletwo">
                 Personas
             </p>
             
@@ -107,7 +144,7 @@
             
             <img src="images/sdr_personas.png" class="img-fluid " alt="Personas">
                     
-             <p class="subheading">
+             <p class="titletwo">
                 Key Findings
             </p>
                     
@@ -119,20 +156,24 @@
                 Information which appears in our peripheral vision and can be interpreted without looking at it directy. Eg. notification light in smartphones.</b>.
             </p>
                     
-            <img src="images/mindmapping.png" class="img-fluid imagepadding" alt="Mind Mapping" >
+            <img src="images/mindmapping.png" class="img-fluid imagepadding" alt="Mind Mapping" ><br><br><br><br><br><br>
+            
+            < p class=""> The issue of Safety Distance in Mixed traffic</p>
 
             <p class="content">
-                <b><b>The issue of Safety Distance in Mixed-Traffic</b></b><br><br>
-                <b>In my interviews and my observational study, I saw a common issue with Indian traffic system is the unorganised division traffic or <b>"mixed-traffic"</b>. Due to poor management and control by authorities, vehicles usually don’t follow the safety distance rule and instead try to overtake or cross even when its not safe for other vehicles. Such situations usually creates a <b>panic</b> amongst other drivers. The misery doesn't end there, in cases where there are no footpaths, pedastrian are forced to walk on roads. Unluckily sometimes such situations turn out fatal for drivers or pedastrian. To my surprise, i saw new users were able to quote this problem, but experienced drivers have got used to it and most of the time they rely on their experience with their vehicle and eye-estimation even on high-speed.</b><br><br>
+                From the research, the issues of maintaining safety distance  leads to anxiety and stress while driving. This issue arises due to the mixed-traffic condition on Indian Roads. Due to poor management and control by authorities, vehicles usually don’t follow the safety distance rule and instead try to overtake which might lead to fatal accidents. This kind of driving might also hurt the pedastrian who are walking on the roads.<br><br>
+                
+                The research also highlighted this issue is noticable amongst the new drivers but the experienced drivers have got used to it. Due to this reasons, this has become a habit and is extremely difficult to change by enforcing just traffic rules.<br><br>
 
                 The picture below depicts a typical scenario of a busy street with mixed-traffic.
-            
             </p>
             
             <img src="images/kolkata_traffic.jpg" class="img-fluid imagepadding " alt="none">
-            <p id="caption"> Place: A busy crossing at Esplanade, Kolkata ; Source: Unknown</p>
+            <p id="caption"> Image: A busy crossing at Esplanade, Kolkata ; Source: Unknown</p>
             
-            <p class="subheading"> Scope of Work </p>
+            <p class="titletwo">
+                Scope of Work
+            </p>
             
             <p class="content">
             Safety Distance is one of the major issues in mixed-traffic. Pedastrian and Two-wheelers are at higher risk and the situation worsens during night. The risk of hitting can be reduced if the driver can be notified or warned against breaking the safety distance. Here lies the biggest challenge about how to notify a driver when he is still driving.<br><br>
@@ -188,9 +229,14 @@
                 
                 <img src="images/connected_cars.png" class="img-fluid connectedcars" alt="connected cars">
                 
-                <p class="subheading">Concepts</p>
-                    I tried to conceptualize as a physical or a virtual device. I found challenge in augmented reality medium because we see and perceive images in our foveal and peripheral vision differently. Therefore, I moved forward with the Concept-3 and found a scope to define how information can be shown in our physical world without distracting our attention all the time.<br><br><br>
-                
+                <p class="titletwo">
+                    Concepts
+                </p>
+            
+                <p class="content">
+                     I tried to conceptualize as a physical or a virtual device. I found challenge in augmented reality medium because we see and perceive images in our foveal and peripheral vision differently. Therefore, I moved forward with the Concept-3 and found a scope to define how information can be shown in our physical world without distracting our attention all the time.<br><br><br>
+                </p>
+
         </div>
         <div class="col-2"> </div>
     </div>
@@ -203,7 +249,7 @@
     
     <div class="row">
         <div class="col-sm-12">
-            <p class="text-center subheading">Design through Scenarios</p><br><br>
+            <p class="text-center titletwo">Design through Scenarios</p><br><br>
         </div>  
     </div>
     
@@ -253,195 +299,288 @@
 </div><!--container-->
         
 <div class="container-fluid darkbackground">
-    
-    <div class="row buffer">
-    <div class="col-sm-2"> </div>
-    
-    <div class="col-sm-8">
-        <p class="headingdark text-center">S A F E T Y D I S T A N C E R I N G</p>
-        
-        <!--img src="images/demo2.png" class="img-fluid"-->
-        
-        <p class="contentdark">
-            <b>Safety Distance Ring</b> or <b>SDR</b> is a Driving Assistant based on Perifoveal Augmented Reality Display. The complexity of information changes based on focus of eye. </br></br>
-        1. <b>Minimal User Interface</b><br>
-        For minimal interference with the physical surroundings to avoid distraction in driving.</br><br>
-        2. <b>Hardware</b><br>
-        The interface can holographically projected via windshield HUD display or AR headsets. </br><br>
-        3. <b>Connective Cars</b><br>
-        The information is shared in real-time with all the cars on road.
-        
-        <p class="subheadingdark">The Interface</p>
-        
-        <div class="row"><!--Feature 1: 3D Model-->
-            
-            <div class="col-sm-6">
-                
-                <div class="embed-responsive">
-                    <video id="video" autoplay muted loop>
-                        <source src="videos/sdrfeatures1.mp4" type="video/mp4">
-                    </video>
-                </div>
-            
-            </div><!--div class="col-sm-6"-->
-            
-            <div class="col-sm-6">
-                
-                <p class="interfacefeatures">
-                    <b>3D RING</b><br>for perception of distance. The ring appears around the surrouding vehicles when the relative distance becomes less than safe distance (0.2seconds).
-                </p>
-            
-            </div><!--div class="col-sm-6"-->
-        </div><!--div class="row buffer"><!--Feature 2: 3d model-->
+        <div class="row ">
+        <div class="col-sm-2"> </div>
 
-        <div class="row"><!--Feature 2: Rhythm-->
-            
-            <div class="col-sm-6">
-                
-                <div class="embed-responsive">
-                    <video id="video" autoplay muted loop>
-                        <source src="videos/sdrfeatures2.mp4" type="video/mp4">
-                    </video>
-                </div>
-            
-            </div><!--div class="col-sm-6"-->
-            
-            <div class="col-sm-6">
-                
-                <p class="interfacefeatures">
-                    <b>RHYTHM</b><br>A motio that syncs with the speed of the user's vehicle and appears moving in opposite direction of vehicle's movement
-                </p>
-            
-            </div><!--div class="col-sm-6"-->
-        </div><!--div class="row buffer"><!--Feature 2: 3d model-->
+        <div class="col-sm-8">
+            <p class="headingdark text-center">S A F E T Y D I S T A N C E R I N G</p>
 
-        <div class="row"><!--Feature 3: Interactive Color Change-->
-            
-            <div class="col-sm-6">
-                
-                <div class="embed-responsive">
-                    <video id="video" autoplay muted loop>
-                        <source src="videos/sdrfeatures3.mp4" type="video/mp4">
-                    </video>
-                </div>
-            
-            </div><!--div class="col-sm-6"-->
-            
-            <div class="col-sm-6">
-                
-                <p class="interfacefeatures">
-                    <b>COLORS</b><br>SDR turns Yellow and Green when viewed in Peripheral and Foveal Vision. SDR turns RED when the front vehicles apply brakes.
-                </p>
-            
-            </div><!--div class="col-sm-6"-->
-        </div><!--div class="row buffer"><!--Feature 3: Interactive Color Change-->
+            <!--img src="images/demo2.png" class="img-fluid"-->
 
-    <p class="subheadingdark">Designing Interactions</p>
-    
-    <p class="contentdark">Scenario 1: SDR appears over nearby vehicles when the user vehicle moves closer than the safety distance.</p>
-    <div class="embed-responsive">
-        <video id="video" autoplay muted loop>
-            <source src="videos/appearancesdr.mp4" type="video/mp4">
-        </video>
+            <p class="contentdark">
+                <b>Safety Distance Ring</b> or <b>SDR</b> is a Driving Assistant based on Perifoveal Augmented Reality Display. The complexity of information changes based on focus of eye. </br></br>
+            1. <b>Minimal User Interface</b><br>
+            For minimal interference with the physical surroundings to avoid distraction in driving.</br><br>
+            2. <b>Hardware</b><br>
+            The interface can holographically projected via windshield HUD display or AR headsets. </br><br>
+            3. <b>Connective Cars</b><br>
+            The information is shared in real-time with all the cars on road.
+
+            <p class="subheadingdark">The Interface</p>
+
+            <div class="row"><!--Feature 1: 3D Model-->
+
+                <div class="col-sm-6">
+
+                    <div class="embed-responsive">
+                        <video id="video" autoplay muted loop>
+                            <source src="videos/sdrfeatures1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div><!--div class="col-sm-6"-->
+
+                <div class="col-sm-6">
+
+                    <p class="interfacefeatures">
+                        <b>3D RING</b><br>for perception of distance. The ring appears around the surrouding vehicles when the relative distance becomes less than safe distance (0.2seconds).
+                    </p>
+
+                </div><!--div class="col-sm-6"-->
+            </div><!--div class="row buffer"><!--Feature 2: 3d model-->
+
+            <div class="row"><!--Feature 2: Rhythm-->
+
+                <div class="col-sm-6">
+
+                    <div class="embed-responsive">
+                        <video id="video" autoplay muted loop>
+                            <source src="videos/sdrfeatures2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div><!--div class="col-sm-6"-->
+
+                <div class="col-sm-6">
+
+                    <p class="interfacefeatures">
+                        <b>RHYTHM</b><br>A motio that syncs with the speed of the user's vehicle and appears moving in opposite direction of vehicle's movement
+                    </p>
+
+                </div><!--div class="col-sm-6"-->
+            </div><!--div class="row buffer"><!--Feature 2: 3d model-->
+
+            <div class="row"><!--Feature 3: Interactive Color Change-->
+
+                <div class="col-sm-6">
+
+                    <div class="embed-responsive">
+                        <video id="video" autoplay muted loop>
+                            <source src="videos/sdrfeatures3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div><!--div class="col-sm-6"-->
+
+                <div class="col-sm-6">
+
+                    <p class="interfacefeatures">
+                        <b>COLORS</b><br>SDR turns Yellow and Green when viewed in Peripheral and Foveal Vision. SDR turns RED when the front vehicles apply brakes.
+                    </p>
+
+                </div><!--div class="col-sm-6"-->
+            </div><!--div class="row buffer"><!--Feature 3: Interactive Color Change-->
+
+        <p class="subheadingdark">Designing Interactions</p>
+
+        <p class="contentdark">Scenario 1: SDR appears over nearby vehicles when the user vehicle moves closer than the safety distance.</p>
+        <div class="embed-responsive">
+            <video id="video" autoplay muted loop>
+                <source src="videos/appearancesdr.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <p class="contentdark">Scenario 2: SDR changes when the driver shifts her focus between different cars on road.</p>
+        <div class="embed-responsive">
+            <video id="video" autoplay muted loop>
+                <source src="videos/speedingsdr.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <p class="contentdark">Scenario 3: SDR changes when the driver shifts her focus between different cars on road.</p>
+        <div class="embed-responsive">
+            <video id="video" autoplay muted loop>
+                <source src="videos/tooclosesdr.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <p class="contentdark">Scenario 4: SDR changes when the driver shifts her focus between different cars on road.</p>
+        <div class="embed-responsive">
+            <video id="video" autoplay muted loop>
+                <source src="videos/peripheralsdr.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <p class="contentdark">Scenario 5: SDR changes when the driver shifts her focus between different cars on road.</p>
+        <div class="embed-responsive">
+            <video id="video" autoplay muted loop>
+                <source src="videos/brakingsdr.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <p class="contentdark">Scenario 6: SDR changes when the driver shifts her focus between different cars on road.</p>
+        <div class="embed-responsive">
+            <video id="video" autoplay muted loop>
+                <source src="videos/mixedtrafficsdr.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <p class="subheadingdark" style="margin-top: 150px; margin-bottom: 70px;"> Video Prototype </p><br>
+
+        <iframe src="https://player.vimeo.com/video/304121091" width="840" height="630" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+        <p class="contentdark" style="margin-bottom: 250px; margin-top: 80px;">
+            I created a video for an experiential prototype. But due to limitation on screensize the vision is  restricted and everything appears on focus. Therefore I have decided to create an <b>interactive virtual reality environment</b> where I can simulate the experience in a virtual environment. The viewers can visually interact with the Safety Distance Ring based on their point of focus inside VR.<br><br>
+
+            <b>The final prototype is a work in progress.</b>
+        </p>
+
+
+
+
+
+
+
+
+
+
+        </div><!--div class="col-sm-8"-->
+
+        <div class="col-sm-2"></div>
     </div>
+    </div><!--darkbackground-->
 
-    <p class="contentdark">Scenario 2: SDR changes when the driver shifts her focus between different cars on road.</p>
-    <div class="embed-responsive">
-        <video id="video" autoplay muted loop>
-            <source src="videos/speedingsdr.mp4" type="video/mp4">
-        </video>
-    </div>
-
-    <p class="contentdark">Scenario 3: SDR changes when the driver shifts her focus between different cars on road.</p>
-    <div class="embed-responsive">
-        <video id="video" autoplay muted loop>
-            <source src="videos/tooclosesdr.mp4" type="video/mp4">
-        </video>
-    </div>
-
-    <p class="contentdark">Scenario 4: SDR changes when the driver shifts her focus between different cars on road.</p>
-    <div class="embed-responsive">
-        <video id="video" autoplay muted loop>
-            <source src="videos/peripheralsdr.mp4" type="video/mp4">
-        </video>
-    </div>
-    
-    <p class="contentdark">Scenario 5: SDR changes when the driver shifts her focus between different cars on road.</p>
-    <div class="embed-responsive">
-        <video id="video" autoplay muted loop>
-            <source src="videos/brakingsdr.mp4" type="video/mp4">
-        </video>
-    </div>
-
-    <p class="contentdark">Scenario 6: SDR changes when the driver shifts her focus between different cars on road.</p>
-    <div class="embed-responsive">
-        <video id="video" autoplay muted loop>
-            <source src="videos/mixedtrafficsdr.mp4" type="video/mp4">
-        </video>
-    </div>
-    
-    <p class="subheadingdark" style="margin-top: 150px; margin-bottom: 70px;"> Video Prototype </p><br>
-    
-    <iframe src="https://player.vimeo.com/video/304121091" width="840" height="630" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    
-    <p class="contentdark" style="margin-bottom: 250px; margin-top: 80px;">
-        I created a video for an experiential prototype. But due to limitation on screensize the vision is  restricted and everything appears on focus. Therefore I have decided to create an <b>interactive virtual reality environment</b> where I can simulate the experience in a virtual environment. The viewers can visually interact with the Safety Distance Ring based on their point of focus inside VR.<br><br>
-        
-        <b>The final prototype is a work in progress.</b>
-    </p>
-
-
-    
-        
-        
-        
-        
-        
-        
-        
-    </div><!--div class="col-sm-8"-->
-     
-    <div class="col-sm-2"></div>
-    </div>
 
 </div><!--div class="container-fluid"-->
 
-<!-- F O O T E R-->
+
+    <!-- E X T R A  P R O J E C T S -->
+    
 <div class="container-fluid">
     
     <div class="row buffer">
+        <div class="col-md">
+            <div class="titlebox">
+                <p class="titletwo">See more.</p>
+            </div>            
+        </div>
+    </div>
+    
+    <div class="row buffer">
         
-        <div class="col-1"></div>
-        
-        <div class="col-10">
-            
-            <p class="endnote">"thank you for reading"<br><br><br><br><br>
-            
-                <a href="https://www.behance.net/somsunderroy">
-                    <button id="button" style="float: left">Previous</button>
-                </a>
-                
-                <a href="https://www.behance.net/somsunderroy">
-                    <button id="button1">More Case Studies</button>
-                </a>
-                
-                <a href="https://www.behance.net/somsunderroy">
-                    <button id="button" style="float: right">Next</button>
-                </a>
-                
-                <div class="footer">
-                    &copy;&nbsp; 2019 Som Roy<br>
-                    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+        <!--Project 1-->
+        <div class="col-md">
+            <a class="projectname" href="googleadmin.html" target="_blank">
+            <div class="cardbox">
+                <div class="cardboxsmall">
+                    <img src="images/cover_ga2.png" class="img-fluid projectimage">
+                    <div class="cardboxsmalltext">
+                    <p class="title3">Google Admin</p>
+                    </div>
                 </div>
-            
-            </p>
+            </div>
+            </a>
         </div>
         
-        <div class="col-1"></div>
+        <!--Project 2-->
+        <div class="col-md">
+           <a class="projectname" href="talktome.html">
+            <div class="cardbox">
+                <div class="cardboxsmall">
+                    <img src="images/cover_ttm.png" class="img-fluid projectimage">
+                    <div class="cardboxsmalltext">
+                    <p class="title3">Talk to me.ai</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
         
-    </div><!--div class="row buffer"-->
+        <!--Project 3-->
+        <div class="col-md">
+            <a class="projectname" href="https://www.behance.net/gallery/64286195/Wild-Trek-VRHR-based-Learning-Experience">
+            <div class="cardbox">
+                <div class="cardboxsmall">
+                    <img src="images/cover_od.png" class="img-fluid projectimage">
+                    <div class="cardboxsmalltext">
+                    <p class="title3">Odyssey</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        
+        <!--Project 4-->
+        <div class="col-md">
+            <a class="projectname" href="https://www.behance.net/gallery/64286195/Wild-Trek-VRHR-based-Learning-Experience">
+            <div class="cardbox">
+                <div class="cardboxsmall">
+                    <img src="images/cover_bs.png" class="img-fluid projectimage">
+                    <div class="cardboxsmalltext">
+                    <p class="title3">Bioscope</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        
+        <!--Project 5-->
+        <div class="col-md">
+            <a class="projectname" href="https://www.behance.net/gallery/64286195/Wild-Trek-VRHR-based-Learning-Experience">
+            <div class="cardbox">
+                <div class="cardboxsmall">
+                    <img src="images/cover_be.png" class="img-fluid projectimage">
+                    <div class="cardboxsmalltext">
+                    <p class="title3">More...</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        
+    </div>
     
-</div><!--div class="container-fluid"-->
+</div><!--container fluid-->
+
+ 
+    <!-- F O O T E R -->
+    <div class="row buffer">
+        <div class="col-md">
+            <div class="footer">
+                
+                        <div class="contactbox">
+                        
+                            <div class="contacticon">
+                                    <a href="mailto:ar.somroy@gmail.com">
+                                    <img src="images/logo_gmail.png" class="img-fluid"></a>
+                            </div>
+                            
+                            <div class="contacticon">
+                                <a href="https://www.linkedin.com/in/roysom/">
+                                    <img src="images/logo_linkdin.png" class="img-fluid">
+                                </a>
+                            </div>
+                           
+                            <div class="contacticon">
+                                <a href="https://www.behance.net/roysom">
+                                <img src="images/logo_behance.png" class="img-fluid">
+                                </a>
+                            </div>
+                            
+                            <div class="contacticon">
+                                <a href="https://www.instagram.com/roysom">
+                                <img src="images/logo_insta.png" class="img-fluid">
+                                </a>
+                            </div>
+                            
+                        </div>
+                
+                <p class="licencetext">Copywright © 2019 Som Roy. This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+       
+            </div>
+        </div>
+    </div>
+    
     
     
 
