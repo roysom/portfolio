@@ -67,7 +67,8 @@ body{
 }
 
 #navbar a.tab:hover{
-    background-color: #ebebeb;
+    background-color: #232729;
+    color: white;
     border-radius: 6px;
     box-shadow: 6px 6px #b2b2b2;
     text-decoration: none;
