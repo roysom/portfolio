@@ -2,6 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }    
 
 .bufferintro{
@@ -127,7 +128,8 @@ position: sticky;
 }
 
 .buffer{
-    padding: 48px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .bufferabout{
@@ -158,6 +160,22 @@ position: sticky;
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.aboutboxone{
+    line-height: 24px;
+    text-justify: inter-word;
+    font-weight: 300px;
+    margin-top: 0px;
+}
+
+.aboutboxtwo{
+    line-height: 28px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 300px;
+    margin-top: 40px;
+}
+
 
 
 .box{
@@ -195,36 +213,98 @@ position: sticky;
 }
 
 .cardbox:hover{
-    background: #ebebeb;
+    background: #232930;
     display: block;
     box-shadow: 12px 12px;
-    z-index: -1;
+    
 }
+
+.cardbox:hover .projectimage{
+    opacity: 0.3;
+    transition: 0.1s ease;
+}
+
+.cardbox:hover .projecttitle{
+    color: white;
+}
+
+.cardbox:hover .projecttitle{
+    transform: translateY(-4px);
+}
+
 
 .cardboxproject{
     display: block;
     width: 100%;
-    height: 440px;
+    height: 480px;
 }
 
-.projectimage{
-    margin-bottom: 16px;
-    border-radius: 8px;
-    z-index: -1;
+
+
+
+.cardboxsmall{
+    display: inline-block;
+    height: 134px;
+    color: white;
 }
 
-.cardbox:hover .projectimage{
-    opacity: 0.2;
+.cardboxsmalltext{
+    opacity: 0;
+    margin-top: -48px;
+    margin-left: 12px; 
+}
+
+.cardbox:hover .cardboxsmalltext{
+    opacity: 1;
+    z-index: 1;
+    color: white;
+}
+
+.contactbox{
+    margin-bottom: 40px;
+}
+
+.contacticon{
+    display: inline-block;
+    background-color: #797979;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.1s ease;
+}
+
+.contacticon:hover{
+    background-color: #b2b2b2;
+    transform: translateY(-2px);
+}
+
+.logobox{
+    display: inline-block;
+    background-color: white;
+    height:64px;
+    width:64px;
+    border-radius: 1px;
+    margin-top: -10px;
+    padding: 8px;
+    box-shadow: 4px 4px #0000;
+}
+
+.logoimage{
+    border-radius: 40px;
 }
 
 .projectbio{
     opacity: 0;
-    color: black;
+    color: white;
     height: 180px;
     margin-top: -180px;
     padding-left: 16px;
+    padding-right: 16px;
     z-index: 1;
-    font-weight: 500px;
+    font-weight: 300px;
 }
 
 .cardbox:hover .projectbio{
@@ -238,39 +318,33 @@ position: sticky;
     margin-top: 0px;
     padding-left: 16px;
     padding-right: 16px;
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
 }
 
-.cardbox:hover .projecttitle{
-    transform: translateY(-4px);
+.projectimage{
+    border-radius: 8px;
+    z-index: -1;
 }
 
-.cardboxsmall{
-    display: block;
-    height: 140px;
+.projectimage_project{
+    margin-left: -20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    z-index: -1;
 }
 
-.cardboxsmalltext{
-    opacity: 0;
-    margin-top: -52px;
-    margin-left: 12px; 
-}
 
-.cardbox:hover .cardboxsmalltext{
-    opacity: 1;
-    color: black;
-}
 
 .footer{
     display: block;
+    color:#797979
     float: center;
     text-align: center;
-    background: #ebebeb;
+    background: #232729;
     height: 220px;
     width: 100%px;
     border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    box-shadow: 12px 12px #b2b2b2; 
+    border-top-right-radius: 12px; 
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -100px;
@@ -279,63 +353,15 @@ position: sticky;
 }
 
 
-.contactbox{
-    margin-bottom: 40px;
-}
-
-.contacticon{
-    display: inline-block;
-    text-align: center;
-    height: 50px;
-    width: 50px;
-    margin: 10px;
-    padding: 10px;
-    transition: 0.1s ease;
-}
-
-.contacticon:hover{
-    background-color: #b2b2b2;
-    border-radius: 4px;
-    transform: translateY(-2px);
-}
-
-.aboutboxone{
-    display: block;
-    line-height: 24px;
-    text-justify: inter-word;
-    font-weight: 300px;
-    margin-top: 40px;
-    padding-left: 40px;
-}
-
-.aboutboxtwo{
-    line-height: 28px;
-    text-align: justify;
-    text-justify: inter-word;
-    font-weight: 300px;
-    margin-top: 40px;
-    padding-right: 40px;
-}
 
 
 
-.timelinetext{
-    display: inline-block;
-    background-color: #b2b2b2:
-    height: 40px;
-    margin-left: 20px;
-}
 
 
-.logobox{
-    display: inline-block;
-    background-color: #ebebeb;
-    height:80px;
-    width:80px;
-    border-radius: 8px;
-    padding: 8px;
-    box-shadow: 8px 8px #b2b2b2;
-}
+
+
+
+
 
 .headerbuffer{
     margin-top: 200px;
@@ -348,23 +374,58 @@ position: sticky;
     margin-right: 20px;
 }
 
-.headingbox{
-    color: #b2b2b2;
-    height: 68px;
-    width: 100%;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 20px;
-    margin-top: 80px;
+.timeline{
+    padding-top: 36px;
+    margin-bottom: 48px;
+}
+
+.timelinetext{
+    display: inline-block;
+    background-color: white;
+    height: 48px;
+    padding: 20px;
     
+}
+
+
+.titlespacing{
+    text-justify: inter-character;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.roleblock{
+    color: #b2b2b2;
+}
+
+
+
+.headingbox{
+    display: block;
+    color: black;
+    width: 100%;
+    margin-top: 160px;
+    margin-bottom: 64px;
+    letter-spacing: 12px;
 }
 
 .headingline{
     display: block;
-    background-color: #b2b2b2;
+    background-color: black;
     width: 100%;
-    height: 10px;
-    border-radius: 10px;
+    height: 1px;
+    border-radius: 1px;
 }
 
 .extraprojectbox{
@@ -372,6 +433,14 @@ position: sticky;
     margin-top: -60px;
     margin-bottom: 120px;
 }
+
+.subtitlebox{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    
+}
+
+
 
 
 

@@ -5,8 +5,7 @@
     font-weight: 800;
     font-style: normal;
     font-size: 36px;
-    padding-left: 48px;
-}
+    }
 
 .introtext2{
     font-family: proxima-nova, sans-serif;
@@ -19,16 +18,22 @@
     padding-right: 48px;
 }
 
+.bodyspacing{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .titletwo{
     font-family: museo-sans, sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     font-style: normal;
-    font-size: 28px;
+    font-size: 26px;
+    letter-spacing: 1px;
 }
 
 .title3{
     font-family: proxima-nova, sans-serif;
-    font-weight: 700;
+    font-weight: 00;
     font-style: normal;
     font-size: 24px;
 }
@@ -51,7 +56,7 @@
     font-family: proxima-nova, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .subtitle{
@@ -64,7 +69,7 @@
 p.content{
     font-family: proxima-nova, sans-serif;
     color: black;
-    font-weight: 500;
+    font-weight: 300;
     font-style: normal;
     font-size: 20px;  
 }
@@ -108,6 +113,8 @@ a.projectname:hover{
 
 
 
+
+
 .caption{
     font-family: museo-sans, sans-serif;
     font-weight: 300;
@@ -128,6 +135,7 @@ a.projectname:hover{
 
 .licencetext{
     font-family: museo-sans, sans-serif;
+    color: #797979;
     font-weight: 300;
     font-style: normal;
     font-size: 12px;
