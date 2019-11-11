@@ -245,7 +245,7 @@ position: sticky;
 
 .cardboxsmall{
     display: inline-block;
-    height: 134px;
+    height: 132px;
     color: white;
 }
 
@@ -259,6 +259,10 @@ position: sticky;
     opacity: 1;
     z-index: 1;
     color: white;
+}
+
+.cardbox:hover .projectbio{
+    opacity: 1;
 }
 
 .contactbox{
@@ -285,8 +289,19 @@ position: sticky;
 .logobox{
     display: inline-block;
     background-color: white;
-    height:64px;
-    width:64px;
+    height:80px;
+    width:80px;
+    border-radius: 1px;
+    margin-top: -10px;
+    padding: 8px;
+    box-shadow: 4px 4px #0000;
+}
+
+.logoboxtwo{
+    display: inline-block;
+    background-color: white;
+    height:54px;
+    width:54px;
     border-radius: 1px;
     margin-top: -10px;
     padding: 8px;
@@ -308,10 +323,6 @@ position: sticky;
     font-weight: 300px;
 }
 
-.cardbox:hover .projectbio{
-    opacity: 1;
-}
-
 
 .projecttitle{
     display: block;
@@ -328,7 +339,6 @@ position: sticky;
 }
 
 .projectimage_project{
-    margin-left: -20px;
     margin-bottom: 16px;
     border-radius: 8px;
     z-index: -1;
@@ -360,12 +370,15 @@ position: sticky;
 
 
 
-
+#headerbuffer{
+    margin-top: 160px;
+    margin-bottom: 6px;  
+}
 
 
 
 .headerbuffer{
-    margin-top: 200px;
+    margin-top: 160px;
     margin-bottom: 6px;  
 }
 
@@ -377,6 +390,7 @@ position: sticky;
 
 .timeline{
     padding-top: 36px;
+    padding-left: 10%;
     margin-bottom: 48px;
 }
 
@@ -431,8 +445,10 @@ position: sticky;
 
 .extraprojectbox{
     display: block;
-    margin-top: -60px;
+    margin-top: 0px;
     margin-bottom: 120px;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .subtitlebox{

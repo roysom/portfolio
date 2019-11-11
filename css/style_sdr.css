@@ -27,6 +27,14 @@ ul li:hover{
     color: black;
 }
 
+#alltextwhite{
+    color: #ebebeb;
+}
+
+#allbgwhite{
+    background-color: #ebebeb;
+}
+
 #line{
     height: 3px;
     width: 100px;
@@ -218,7 +226,7 @@ p {
 
 .darkbackground{
     display: block;
-    background-color: #393939;
+    background-color: #3A393B;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
@@ -236,5 +244,35 @@ p {
     margin-left: 70px;
     margin-right: 70px;
     
+}
+
+
+
+
+
+
+
+.imagebox{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 24px;
+}
+
+.scenarioboxvideo{
+    margin-top: 12px;
+    margin-bottom: 120px;
+}
+
+.scenarioboxtext{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.thankyoubufferextra{
+    margin-bottom: 220px;
+}
+
+.footerextrabuffer{
+    margin-top: 240px;
 }
 
